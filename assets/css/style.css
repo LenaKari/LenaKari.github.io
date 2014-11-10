@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
+	font-size: 4em;
 	font-weight: bold;
 }
 
@@ -184,4 +184,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+
+
+/* HEADER SIZE ON SMALLER SCREENS */
+@media (max-width: 600px) {
+  #headerwrap h1 {
+	font-size: 3em;
+  }
 }
