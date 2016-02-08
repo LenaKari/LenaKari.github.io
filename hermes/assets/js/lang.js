@@ -534,7 +534,7 @@ var lang = {
       english: "<p>" + companyDetails.addressline1 + "</p><p>" + companyDetails.addressline2 + "</p><p>" + companyDetails.addressline3 + "</p>"
     },
     phone: {
-      german: "Telefon: " + companyDetails.phone,
+      german: "Tel: " + companyDetails.phone,
       english: "Phone: " + companyDetails.phone
     },
     fax: {
@@ -560,7 +560,7 @@ var lang = {
       english: "<p>" + companyDetails.addressline1 + "</p><p>" + companyDetails.addressline2 + "</p><p>" + companyDetails.addressline3 + "</p>"
     },
     phone: {
-      german: "Telefon: " + companyDetails.phone,
+      german: "Tel: " + companyDetails.phone,
       english: "Phone: " + companyDetails.phone
     },
     fax: {
@@ -600,7 +600,7 @@ var lang = {
   },
   footer: {
     phone: {
-      german: "Telefon: " + companyDetails.phone,
+      german: "Tel: " + companyDetails.phone,
       english: "Phone: " + companyDetails.phone
     },
     fax: {
