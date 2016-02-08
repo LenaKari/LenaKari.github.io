@@ -1,10 +1,10 @@
 var companyDetails = {
-  taxCode: "30/132/08492",
+  taxCode: "DE 136 683 246",
   addressline1: "Hermes Synchron GmbH",
   addressline2: "August-Bebel-Str 26-53",
   addressline3: "14 482 Potsdam",
   email: "<a href='mailto:info@hermes-synchron.de'>info@hermes-synchron.de</a>",
-  disclaimerEmail: "<a href='mailto:h.tonke@hermes-synchron.de'>h.tonke@hermes-synchron.de</a>",
+  disclaimerEmail: "<a href='mailto:info@hermes-synchron.de'>info@hermes-synchron.de</a>",
   fax: "+49 (0) 331 74 91 - 1020",
   phone: "+49 (0) 331 74 91 - 0",
   url: "<a href='http://www.hermes-synchron.de'>www.hermes-synchron.de</a>"
@@ -49,8 +49,8 @@ var lang = {
       english: "The perfect sound now!"
     },
     subtitle: {
-      german: "Synchronisation f&uuml;r Kino, DVD und TV. Auf h&ouml;chstem technischen Niveau.",
-      english: "Synchronisation f&uuml;r Kino, DVD und TV. Auf h&ouml;chstem technischen Niveau."
+      german: "Synchronisation f&uuml;r Kino, DVD und TV. Auf h&ouml;chstem Niveau.",
+      english: "Synchronisation f&uuml;r Kino, DVD und TV. Auf h&ouml;chstem Niveau."
     },
     main_text_1: {
       title: {
@@ -452,7 +452,7 @@ var lang = {
       english: "Be part of it!"
     },
     text: {
-      german: "<p>Sind Sie ein neues Talent mit guter Stimme? Oder bereits als Schauspieler im Synchronbereich t&auml;tig? Dann sollten wir uns kennenlernen!</p><p>Lassen Sie uns hier schon einmal die wichtigsten infos zukommen. Wenn es passt, melden wir uns bei Ihnen zur&uuml;ck.</p>",
+      german: "<p>Sind Sie ein neues Talent mit guter Stimme? Oder bereits als Schauspieler im Synchronbereich t&auml;tig? Dann sollten wir uns kennenlernen!</p><p>Lassen Sie uns hier schon einmal die wichtigsten Infos zukommen. Wenn es passt, melden wir uns bei Ihnen zur&uuml;ck.</p>",
       english: "<p>Are you a new talent with a good voice? Or do you already have experience as a voice actor? We would like to hear from you!</p><p>Please complete the form below, and we will be in contact if we feel that you are a good fit.</p>"
     },
     experience: {
@@ -599,7 +599,17 @@ var lang = {
     }
   },
   footer: {
-    german: "IMPRESSUM",
-    english: "DISCLAIMER"
+    phone: {
+      german: "Telefon: " + companyDetails.phone,
+      english: "Phone: " + companyDetails.phone
+    },
+    fax: {
+      german: "Fax: " + companyDetails.fax,
+      english: "Fax: " + companyDetails.fax
+    },
+    link: {
+      german: "IMPRESSUM",
+      english: "DISCLAIMER"
+    }
   }
 };

@@ -358,8 +358,9 @@
   font-size: 0.85em;
 }
 @media (max-width: 770px) {
+/* PADDING UPDATED MANUALLY */
   #footer .row {
-    padding: 0 30% 2em;
+    padding: 0 8% 2em;
   }
   #footer .row .col-sm-4 {
     margin-bottom: 2em;
@@ -539,9 +540,10 @@
   font-weight: bold;
   margin: 10px 0 5px;
 }
+/* MARGIN UPDATED MANUALLY */
 @media (max-width: 770px) {
   #home .sub-content .col-sm-4 {
-    margin: 5% 20%;
+    margin: 5% 0%;
   }
 }
 @media (max-width: 1000px) {
@@ -914,5 +916,3 @@ body .bottom-shape img {
 #services ul li span {
   font-size: 1.2em;
 }
-
-

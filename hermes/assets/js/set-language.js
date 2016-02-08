@@ -90,10 +90,10 @@ var setLanguage = function(language) {
     $('#footer-address-1').html(companyDetails.addressline1);
     $('#footer-address-2').html(companyDetails.addressline2);
     $('#footer-address-3').html(companyDetails.addressline3);
-    $('#footer-phone').html(companyDetails.phone);
-    $('#footer-fax').html(companyDetails.fax);
+    $('#footer-phone').html(lang.footer.phone[language]);
+    $('#footer-fax').html(lang.footer.fax[language]);
     $('#footer-email').html(companyDetails.email);
-    $('#footer-link').html(lang.footer[language]);
+    $('#footer-link').html(lang.footer.link[language]);
 
 
     // Home text
