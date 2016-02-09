@@ -250,6 +250,12 @@
   margin-left: 66.5%;
   margin-top: 1em;
 }
+@media (max-width: 500px) {
+  #application .application-container button {
+    width: 45%;
+    margin-left: 50%;
+  }
+}
 #application .application-container button:hover {
   background: #009EE0;
 }
